@@ -17,6 +17,5 @@ let package = Package(
         .testTarget(
             name: "RuntimeTests",
             dependencies: ["Runtime"])
-    ],
-    swiftLanguageVersions: [.v4_2]
+    ]
 )
